@@ -39,6 +39,8 @@
                .checkbox {
 
                 margin-top: 100px;
+                color: #1F1C1C;
+                margin-left: 30px;
                }
 
                .form {
@@ -49,6 +51,8 @@
                 color: white;
 
                }
+
+
 
            </style>
     </head>
@@ -80,7 +84,7 @@
             </form>
 
 
-            <input class="checkbox" type="checkbox" id="concordar" name=""><label for="concordar">Sim, concordo com os termos e condicoes </label><br><br>
+            <input class="checkbox" type="checkbox" id="concordar" name=""><label for="concordar">Sim, concordo com os <span style="color: red; fonte-size: 14">Termos e condicoes</span></label><br><br>
 
 
           </div>
