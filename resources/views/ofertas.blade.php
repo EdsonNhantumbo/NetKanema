@@ -100,21 +100,12 @@
 
         <div class="row">
 
+         <div class="col-md-12">
           <div class="radio">
-
-             <div class="col" >
-                 <div class="radio1">
-                     <input type="radio" name="opcao" value="opcao1">&nbsp;&nbsp;&nbsp;
-                 </div>
-             </div>
-
-             <div class="col" >
-
-                  <div >
-                     <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subscrição Mensal <span>Obter acesso ao catalogo numa base recorrente</span></label>
-                 </div>
-             </div>
+             <label><input type="radio" name="opcao" value="opcao1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subscrição Mensal <span>Obter acesso ao catalogo numa base recorrente</span></label>
           </div>
+          </div>
+
         </div>
 
    <div class="radio">
@@ -194,9 +185,6 @@
         <fIgure>
 
     </div>
-
-
-
 
 
           </div>
