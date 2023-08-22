@@ -9,6 +9,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -59,10 +60,14 @@
 
        <div class="main">
 
+       <header>
 
+       <div class="col-md-6"><img src="{{asset('/logo.png')}}" width="60" height="60"></div>
+
+            </header>
 
           <div class="col">
-    <h4>Escolher oferta &nbsp;&nbsp;&nbsp;&nbsp; &gt; &nbsp;&nbsp;&nbsp;&nbsp; Informação do cliente </h4>
+          <span style="color: red; fonte-size: 14">Escolher oferta</span> &nbsp;&nbsp;&nbsp;&nbsp; &gt; &nbsp;&nbsp;&nbsp;&nbsp; Informação do cliente </h4>
           </div>
 
           <div>
@@ -96,7 +101,7 @@
         </div>
 
 
-        <div ><h3 class="Centrar">CineKanema - video clube (Sala de Cinema Virtual)</h3></div>
+        <div class="text-center" ><h3>CineKanema - video clube (Sala de Cinema Virtual)</h3></div>
 
 
         <div class="barra">

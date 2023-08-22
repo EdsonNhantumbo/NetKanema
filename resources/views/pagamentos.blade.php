@@ -56,6 +56,8 @@
 
        <div class="main">
 
+        <div class="col-md-6"><img src="{{asset('/logo.png')}}" width="60" height="60"></div>
+
           <div class="barra">
              <hr>
           </div>
