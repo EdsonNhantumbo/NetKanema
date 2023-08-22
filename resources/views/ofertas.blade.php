@@ -31,6 +31,7 @@
         border: 2px solid #6B6B6B;
         padding: 30px;
         margin: 20px 0px;
+        display:flex;
 
                         }
 
@@ -71,6 +72,10 @@
 
                     margin: 1px 30px;
                 }
+
+                .direita {
+                    margin-left:50%;
+                }
            </style>
     </head>
     <body >
@@ -98,34 +103,50 @@
 
         <div class="form-group">
 
-        <div class="row">
-
-         <div class="col-md-12">
-          <div class="radio">
-             <label><input type="radio" name="opcao" value="opcao1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subscrição Mensal <span>Obter acesso ao catalogo numa base recorrente</span></label>
-          </div>
-          </div>
-
-        </div>
-
-   <div class="radio">
-      <label><input type="radio" name="opcao" value="opcao1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subscrição Mensal <span>Obter acesso ao catalogo numa base recorrente</span></label>
-   </div>
-
-   <div class="radio">
-      <label><input  type="radio" name="opcao" value="opcao1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subscrição Trimestral <span>Obter acesso ao catalogo numa base recorrente</span></label>
-   </div>
 
 
-   <div class="radio">
-      <label><input type="radio" name="opcao" value="opcao1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subscrição Semestral <span>Obter acesso ao catalogo numa base recorrente</span></label>
-   </div>
 
-   <div class="radio">
-      <label><input type="radio" name="opcao" value="opcao1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subscrição Anual <span>Obter acesso ao catalogo numa base recorrente</span></label>
-   </div>
 
-        </div>
+
+            <div class="radio">
+
+<div><input type="radio" name="opcao" value="opcao1">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div >Subscrição Mensal <br> Obter acesso ao catalogo numa base <br> recorrente</div>
+<div class="direita">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gratis por 7 dias <br> 200,00Mtn/mes depois do <br> teste</div>
+
+
+            </div>
+
+
+            <div class="radio">
+
+<div><input type="radio" name="opcao" value="opcao1">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div >Subscrição Trimestral <br> Obter acesso ao catalogo numa base <br> recorrente</div>
+<div class="direita">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gratis por 7 dias <br> 500,00Mtn/mes depois do <br> teste</div>
+
+
+            </div>
+
+            <div class="radio">
+
+<div><input type="radio" name="opcao" value="opcao1">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div >Subscrição Semestral <br> Obter acesso ao catalogo numa base <br> recorrente</div>
+<div class="direita">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gratis por 7 dias <br> 1000,00Mtn/mes depois do <br> teste</div>
+
+
+            </div>
+
+            <div class="radio">
+
+<div><input type="radio" name="opcao" value="opcao1">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div >Subscrição Anual <br> Obter acesso ao catalogo numa base <br> recorrente</div>
+<div class="direita">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gratis por 7 dias <br> 1800,00Mtn/mes depois do <br> teste</div>
+
+
+            </div>
+
+
+
 
 
         <div class="text-center" ><h3>CineKanema - video clube (Sala de Cinema Virtual)</h3></div>
